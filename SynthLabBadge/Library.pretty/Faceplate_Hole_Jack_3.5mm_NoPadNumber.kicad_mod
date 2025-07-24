@@ -1,0 +1,104 @@
+(footprint "Faceplate_Hole_Jack_3.5mm_NoPadNumber"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "RV3"
+		(at 0.41 4.84 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e12117c-de39-4b4f-a310-bd7551a40e26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "100K"
+		(at 0.27 6.16 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6054fbf5-151f-4f37-aaa6-83d523f79401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a676e7a7-ea4a-4d7c-a2de-e80280b4d5f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Potentiometer"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49eb01a2-96d3-4c65-bfe4-76d20dfb5cac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole dnp)
+	(fp_line
+		(start -0.508 0)
+		(end 0.508 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2152cb28-42d5-4389-b64b-679ffea443b4")
+	)
+	(fp_line
+		(start -0.508 0)
+		(end 0.508 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2152cb28-42d5-4389-b64b-679ffea443b4")
+	)
+	(fp_line
+		(start 0 -0.508)
+		(end 0 0.508)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2a67e8f-9de4-4947-8813-c78d59da9217")
+	)
+	(fp_line
+		(start 0 -0.508)
+		(end 0 0.508)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2a67e8f-9de4-4947-8813-c78d59da9217")
+	)
+	(pad "" thru_hole circle
+		(at 0 0)
+		(size 7.62 7.62)
+		(drill 6.604)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94ab1f20-25e1-4504-a8bb-8391e804b97b")
+	)
+	(embedded_fonts no)
+)
