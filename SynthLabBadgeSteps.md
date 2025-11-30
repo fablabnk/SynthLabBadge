@@ -6,7 +6,6 @@
 - check lanyard hole against admins badge
 - tunable range is quite extreme
 
-
 # SynthLab Badge Steps
 
 DONE 1. Fix existing design
