@@ -1680,156 +1680,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_4ms_Connector:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -4484,23 +4334,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "needed?"
-		(exclude_from_sim no)
-		(at 276.352 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "12093a98-77fc-4b22-8d99-4b8d5cc2b733")
-	)
 	(text "Output of another beam catcher badge\ncan be fed in here, to mix two sets of\noscillators.original beam catcher\n- In original one goes to left, one goes to right output"
 		(exclude_from_sim no)
-		(at 133.35 72.39 0)
+		(at 167.386 90.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "180db478-2f92-4e69-83fc-647900a2ae41")
 	)
@@ -4514,9 +4355,9 @@
 		)
 		(uuid "21a6801a-cbb1-4656-98f9-0b7a90a4b835")
 	)
-	(text "Bridge this with solder\nif using a stereo 3.5mm\noutput jack (headphones)\nor leave open if using a\nswitched mono output jack\n(footprint is the same - TN turns to R)"
+	(text "Can you stereo 3.5mm\noutput jack or\nswitched thonkiconn\nmono jack here\n(R turns to TN)"
 		(exclude_from_sim no)
-		(at 239.268 59.436 0)
+		(at 270.256 64.008 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4534,17 +4375,6 @@
 		)
 		(uuid "621e63e9-f76a-4e65-b407-350620170346")
 	)
-	(text "Practical notes\n- changing from 9V to 12V affects pitch, but it still tunable within a nice range\n- sides of thonkiconn photodiode probe need to be held otherwise output is V quiet\n- pot is wired wrong way around on breadboard - check this in schematic\n- line input can be given as a test but overloads, so reduce volume\n- above dual op amp approach works but first op amp could amplify the probe more\n- trimpot is not very tunable (would changing 1k resistor here make a difference)"
-		(exclude_from_sim no)
-		(at 152.146 146.558 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b705f96b-b130-4d9c-bcc4-70d8e7979b56")
-	)
 	(text "Can be +9V or +12V\nOriginal Beam Catcher is +5V"
 		(exclude_from_sim no)
 		(at 99.568 158.496 0)
@@ -4554,27 +4384,6 @@
 			)
 		)
 		(uuid "c050a14c-bb6d-4c45-b9eb-4003cd943ded")
-	)
-	(text "- will stereo jack idea work? Does R replace TN or T?\n- 47uF or 22uF\n- check which way around pot should be\n- add clip slot!\n- 9V battery dimensions = 48.5mm x 26.5mm x 17.5mm\n- battery placement off board for now. In V2 SMT components might be on front and we find space for it on back.\n- thonkiconn mounting: jack socket is screwed to pcb and is point-to-point wired to mounting holes on PCB\n- where could battery be mounted? is clip possible?\n- 100k resistor has been added between op amp output and LED\n	- not shown here: https://github.com/uvknhn/Beam-Catcher/blob/main/v1/schematic.png !\n- will mixer chaining approach work?\n	- how it works:\n	- a photodiode is on the end of probe cable which plugs into a thonkiconn and goes to plus input of first LM358\n	- output of LM358 goes into minus input of second LM358\n	- Out of other badge goes to thonkiconn Mix In of this badge, which in turn goes to minus input of second LM358\n	- mixed output goes to Out thonkiconn\n	- either a mono or stereo thonkiconn can be used at Out. When stereo output jumper needs to be bridged\n- will +9V/+12V approach work? Yes, both chips can operate with 12V\n- choose PCB colour: red,yellow,blue\n- route it\n- silkscreen component values\n- silkscreen connectors (i.e. T R S)\n- add eurorack screw slots\n- V2: go SMT! Would be more electrically sound (no solder connections on front side of badge)"
-		(exclude_from_sim no)
-		(at 150.876 113.792 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d7a4ef19-f532-49d9-90c0-d8283c5a24b7")
-	)
-	(text "summing configuration: equal value resistors on both inputs going to minus and in the loop"
-		(exclude_from_sim no)
-		(at 193.548 88.138 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fa4f24a0-b404-4acb-8265-415d005c63b3")
 	)
 	(junction
 		(at 17.78 86.36)
@@ -4659,12 +4468,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41a58c35-297b-4bac-9341-9375ae75bbb1")
-	)
-	(junction
-		(at 233.68 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ca290af-9a76-464b-a5d8-3767ffbaa6b5")
 	)
 	(junction
 		(at 149.86 34.29)
@@ -4857,6 +4660,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df11217a-799e-401a-a121-bb6dfabfb0d4")
+	)
+	(junction
+		(at 233.68 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0fe2d3f-8c05-40e1-b0a1-9e8a4696cb01")
 	)
 	(junction
 		(at 171.45 44.45)
@@ -6200,6 +6009,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 73.66) (xy 243.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b71558-dfa0-4fcf-bf1a-9eaeb6173149")
+	)
+	(wire
+		(pts
 			(xy 66.04 130.81) (xy 66.04 132.08)
 		)
 		(stroke
@@ -6717,7 +6536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 199.39 72.898 90)
 			(effects
 				(font
@@ -8180,7 +7999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 16.002 74.93 90)
 			(effects
 				(font
@@ -8424,7 +8243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 46.99 43.688 90)
 			(effects
 				(font
@@ -8815,7 +8634,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 173.228 24.13 90)
 			(effects
 				(font
@@ -9052,7 +8871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 64.262 31.75 90)
 			(effects
 				(font
@@ -9120,7 +8939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 16.002 120.65 90)
 			(effects
 				(font
@@ -9188,7 +9007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 199.39 38.608 90)
 			(effects
 				(font
@@ -9811,7 +9630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 16.002 31.75 90)
 			(effects
 				(font
@@ -9878,7 +9697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 210.82 66.548 90)
 			(effects
 				(font
@@ -10083,7 +9902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 46.99 132.588 90)
 			(effects
 				(font
@@ -10423,7 +10242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 64.262 74.93 90)
 			(effects
 				(font
@@ -10557,7 +10376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 95.25 88.138 90)
 			(effects
 				(font
@@ -10822,7 +10641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 95.25 43.688 90)
 			(effects
 				(font
@@ -11060,7 +10879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 224.79 37.592 90)
 			(effects
 				(font
@@ -11420,7 +11239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 224.79 71.882 90)
 			(effects
 				(font
@@ -11559,7 +11378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 46.99 88.138 90)
 			(effects
 				(font
@@ -11739,73 +11558,6 @@
 			(project "SynthLabBadge"
 				(path "/3cb18f4a-e616-4f52-9c11-d7b5d96e6e33"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 238.76 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e355c1f-37aa-4ab2-b013-1717376d678a")
-		(property "Reference" "JP1"
-			(at 238.76 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jmp4Stereo"
-			(at 238.76 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 238.76 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 238.76 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "23ac14a1-7c6e-4481-8183-ec8673f536db")
-		)
-		(pin "1"
-			(uuid "9e8c648d-5bf5-4f3e-88cd-e3735f13536e")
-		)
-		(instances
-			(project ""
-				(path "/3cb18f4a-e616-4f52-9c11-d7b5d96e6e33"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -13110,7 +12862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 95.25 132.588 90)
 			(effects
 				(font
@@ -13956,7 +13708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 64.262 120.65 90)
 			(effects
 				(font
@@ -14318,7 +14070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 210.82 32.258 90)
 			(effects
 				(font
@@ -14386,7 +14138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 191.262 46.99 90)
 			(effects
 				(font
