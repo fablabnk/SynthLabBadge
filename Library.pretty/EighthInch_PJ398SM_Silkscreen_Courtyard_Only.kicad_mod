@@ -7,7 +7,7 @@
 		(at -5.0172 -4.866 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "443bcf61-2bec-40e1-8c35-e1cf0097f598")
+		(uuid "faebe43f-1a8a-49b2-9119-b4c625049cac")
 		(effects
 			(font
 				(size 1.2065 1.2065)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "Probe In"
-		(at 6.598948 3.844233 90)
+		(at 5.237266 -3.753895 90)
 		(layer "F.SilkS")
-		(uuid "6250f854-a341-40be-ab49-377c8b9b37ad")
+		(uuid "eccb98e2-c086-4c70-b490-7446c595ebf6")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "04115f02-20d5-462c-aaab-f40a73235ed4")
+		(uuid "a3a21350-c1e9-41d7-960e-8bae49783f76")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a93836ae-16fd-4d82-89e5-325b2130b972")
+		(uuid "bbb7fed9-0d0b-43d7-89dc-ba6e75e0e7ef")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ee29e583-ef7e-4f47-8240-72b99db25b0f")
+		(uuid "49c85dd8-d1fe-42ee-afc5-d29d2e543784")
 	)
 	(fp_line
 		(start -6.1722 4.445)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "79aba8bb-fb6c-427b-a45d-1e99683a4054")
+		(uuid "892c2f24-b3c2-4f20-bf7d-e178e7059200")
 	)
 	(fp_line
 		(start 4.4958 -4.445)
@@ -81,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fe0bc583-c69b-4122-96ed-b3071c1bad7d")
+		(uuid "8793bcba-3fbd-4bc1-a659-64b3cf448d7c")
 	)
 	(fp_line
 		(start 4.4958 4.445)
@@ -91,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d96a9f03-f035-49ff-8870-2b9b16e52901")
+		(uuid "25212041-1525-4903-950d-d751fbaa4e80")
 	)
 	(fp_circle
 		(center -0.0127 0)
@@ -102,7 +102,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "886cbbbc-08a3-42ef-a72f-40e27ef7ff0b")
+		(uuid "3dc1aede-e054-439a-a7b7-8924b4e3d068")
 	)
 	(fp_circle
 		(center -0.0127 0)
@@ -113,7 +113,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "428dee69-20ee-4db6-9067-8a94abf0041c")
+		(uuid "96cdd0a0-eddc-4128-8544-39c91ecc94c3")
 	)
 	(fp_circle
 		(center 0 0)
@@ -124,7 +124,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "c15310bd-09b4-4bfa-bd7f-0d67cb31a866")
+		(uuid "488c6610-4cd0-4efc-8f58-a0978a089b28")
 	)
 	(fp_line
 		(start -6.44 -4.7)
@@ -134,7 +134,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "52d3aa47-10d6-41b5-9f5d-2f281c747918")
+		(uuid "22f6ccc9-4700-4ee5-9430-1bcfd3214e94")
 	)
 	(fp_line
 		(start -6.44 -4.7)
@@ -144,7 +144,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "14c3001a-3862-4c33-8eaf-6c043e193358")
+		(uuid "91760cb8-467f-4c07-b9bb-57cc2a023248")
 	)
 	(fp_line
 		(start -6.44 4.7)
@@ -154,7 +154,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "43488f6d-eeb1-4072-b526-0d886f4103b3")
+		(uuid "04a4bc44-d962-4d93-9473-2c52d3b022f7")
 	)
 	(fp_line
 		(start 4.5 -4.7)
@@ -164,7 +164,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "39a7abe5-c2e4-41fd-ab32-90ae5d5a7fab")
+		(uuid "bb00b11a-8039-4231-b5ea-1caeddca1dec")
 	)
 	(fp_line
 		(start 4.5 -1.16)
@@ -174,7 +174,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e89b7e5d-cd35-4d3a-b1de-3af3a50921b2")
+		(uuid "5f5005a3-2556-42d8-9e9a-205feba4c07e")
 	)
 	(fp_line
 		(start 4.5 1.16)
@@ -184,7 +184,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d4831b6e-3cfc-4624-9eaf-9f8fd538fd7d")
+		(uuid "ea427655-911e-447e-8c39-f7e40fdc3fd8")
 	)
 	(fp_line
 		(start 6.93 -1.16)
@@ -194,7 +194,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "805ceb1a-d8cc-4e97-823a-2b6dd33e4f8f")
+		(uuid "17cc6623-9e3d-4b48-8d5d-bd894a2a1475")
 	)
 	(fp_line
 		(start 6.93 1.16)
@@ -204,7 +204,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8a28caff-c78f-47ce-9923-3ed6790e737b")
+		(uuid "7b1f89cc-6d48-4af1-9741-1567be5f6912")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3DModels/PJ301M-12.WRL"
@@ -216,6 +216,17 @@
 		)
 		(rotate
 			(xyz -0 -180 -90)
+		)
+	)
+	(model "${KIPRJMOD}/3DModels/M5 Knurled Nut.stp"
+		(offset
+			(xyz 0 0 -5)
+		)
+		(scale
+			(xyz 0.7 0.7 0.5)
+		)
+		(rotate
+			(xyz -0 -0 -0)
 		)
 	)
 )
