@@ -17728,9 +17728,9 @@
 			(uuid "fd13c518-280f-4acf-a805-b892fc0b1dd6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/9VBatteryClipModel/Slice.1.step"
+		(model "${KIPRJMOD}/3DModels/9VBatteryClip-3DModel.step"
 			(offset
-				(xyz 10 -105.5 6)
+				(xyz 10 -105.5 8)
 			)
 			(scale
 				(xyz 1 1 1)
