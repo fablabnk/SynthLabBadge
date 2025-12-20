@@ -42,70 +42,10 @@ DONE 5. Rework PCB design, accounting for:
 
 - Lanyards
 
-## BOM
-
-?		1	Lanyard
-	- need 20, have 0	
-BT1		1	9V Battery
-	- need 20, have ?
-			Battery Clip
-	- need 20, have ?
-			Battery Clip Holder (3D Print)
-	- need 20, can print 20
-			M3x8 screws
-	- need 40, have >40
-			M3 nuts
-	- need 40, have ?
-C1		1	1uF (105)
-	- need 20, have ?
-C2-10	9	100nF (104)
-	- need 180, have ?
-C11		1	22uF
-	- need 20, have ?
-D7		6	LED
-	- need 120, have 81
-D8		1	5817
-	- need 20, have <20
-J2		1	Probe In 3.5mm Jack Mono (Thonkiconn) w/nut
-	- need 20, have plenty
-J3		1	Mix In 3.5mm Jack Mono (Thonkiconn) w/nut
-	- need 20, have plenty
-J4		1	Out 3.5mm Jack Mono or Stereo (Thonkiconn) w/nut
-	- need 20 (mono), have plenty
-J5		1	Eurorack_Power_10pin_Unshrouded
-	- need 20, have 1
-
-R1-19	15	1k
-	- need 300, have ?
-R3,R20	2	100k
-	- need 40, have ?
-R4		1	10k
-	- need 20, have ?
-R6		1	1.5k
-	- need 20, have ?
-R11		1	470
-	- need 20, have ?
-
-RV-7	6	1M (105?)
-	- need 120, have 88 - but check drawers
-RV3		1	A100K with mounting nut
-	- need 20, have 0 (only have B type)
-
-U1		1	LM358
-			8 pin DIP Socket
-	- need 20, have 20 (including in working badges)
-U2		1	CD40106BPWR
-			14 pin DIP Socket
-	- need 20, have 9			
-D1		1	D_Photo
-	- need 20, have 17 (19 including existing probes) 
-
-J1		1	Probe Out 3.5mm Thonkiconn
-	- need 20, have plenty 
-			3.5mm mono cable
-	- need 20, have 0
-
 8. Build kits
+
+Wait for PCB's/Ali
+Test batteries
 
 9. Assemble workshop setup
 

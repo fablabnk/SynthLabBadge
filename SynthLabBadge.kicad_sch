@@ -6672,7 +6672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal_Disc3DModel"
 			(at 135.5852 176.53 0)
 			(effects
 				(font
@@ -6749,7 +6749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "Library:Potentiometer_Runtron_RM-065_Vertical_With3DModel"
 			(at 25.4 66.04 0)
 			(effects
 				(font
@@ -6888,7 +6888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal_Disc3DModel"
 			(at 18.7452 50.8 0)
 			(effects
 				(font
@@ -7371,7 +7371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "Library:Potentiometer_Runtron_RM-065_Vertical_With3DModel"
 			(at 25.4 110.49 0)
 			(effects
 				(font
@@ -7442,7 +7442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "Library:Potentiometer_Runtron_RM-065_Vertical_With3DModel"
 			(at 73.66 66.04 0)
 			(effects
 				(font
@@ -7579,7 +7579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Library:LED_D5.0mm_Lowered"
 			(at 102.87 86.36 0)
 			(effects
 				(font
@@ -8067,7 +8067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Library:LED_D5.0mm_Lowered"
 			(at 102.87 130.81 0)
 			(effects
 				(font
@@ -8555,7 +8555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal_Disc3DModel"
 			(at 261.3152 36.83 0)
 			(effects
 				(font
@@ -8800,7 +8800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "Library:Potentiometer_Runtron_RM-065_Vertical_With3DModel"
 			(at 73.66 110.49 0)
 			(effects
 				(font
@@ -9244,7 +9244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "Library:Potentiometer_Runtron_RM-065_Vertical_With3DModel"
 			(at 73.66 21.59 0)
 			(effects
 				(font
@@ -9487,7 +9487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal_Disc3DModel"
 			(at 186.69 40.9448 0)
 			(effects
 				(font
@@ -11014,7 +11014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal_Disc3DModel"
 			(at 67.0052 50.8 0)
 			(effects
 				(font
@@ -11092,7 +11092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal_Disc3DModel"
 			(at 67.0052 139.7 0)
 			(effects
 				(font
@@ -11446,7 +11446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Library:LED_D5.0mm_Lowered"
 			(at 54.61 41.91 0)
 			(effects
 				(font
@@ -11590,7 +11590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal_Disc3DModel"
 			(at 67.0052 95.25 0)
 			(effects
 				(font
@@ -11970,7 +11970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal_Disc3DModel"
 			(at 18.7452 95.25 0)
 			(effects
 				(font
@@ -12715,7 +12715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Library:LED_D5.0mm_Lowered"
 			(at 54.61 86.36 0)
 			(effects
 				(font
@@ -12930,7 +12930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Library:LED_D5.0mm_Lowered"
 			(at 54.61 130.81 0)
 			(effects
 				(font
@@ -13073,7 +13073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "Library:LED_D5.0mm_Lowered"
 			(at 102.87 41.91 0)
 			(effects
 				(font
@@ -13777,7 +13777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal_Disc3DModel"
 			(at 18.7452 139.7 0)
 			(effects
 				(font
@@ -13856,7 +13856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Library:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal_Disc3DModel"
 			(at 172.4152 41.91 0)
 			(effects
 				(font
@@ -14000,7 +14000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "Library:Potentiometer_Runtron_RM-065_Vertical_With3DModel"
 			(at 25.4 21.59 0)
 			(effects
 				(font
